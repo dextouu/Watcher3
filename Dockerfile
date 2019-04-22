@@ -3,10 +3,7 @@ LABEL author="dextou"
 
 ENV UID=991 GID=991
 
-# set version label
-ARG BUILD_DATE
-ARG VERSION
-LABEL build_version="Version:- ${VERSION} Build-date:- ${BUILD_DATE}"
+
 
 # install git
 RUN apk add --no-cache git \
