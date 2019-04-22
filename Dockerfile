@@ -1,9 +1,6 @@
 FROM python:3.6-alpine
 LABEL author="dextou"
-
 ENV UID=991 GID=991
-
-
 
 # install git
 RUN apk add --no-cache git \
