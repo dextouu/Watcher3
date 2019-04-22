@@ -17,6 +17,6 @@ RUN chmod +x /usr/local/bin/run.sh
 # ports and volumes
 EXPOSE 9090
 WORKDIR /app/watcher3
-VOLUME /config /downloads /movies
+VOLUME /config /downloads /movies /app/watcher/userdata
 
 CMD ["run.sh"]
