@@ -1,5 +1,5 @@
 FROM python:3.6-alpine
-LABEL author="dextou"
+LABEL maintainer=="kanjusei"
 ENV UID=991 GID=991
 
 # install git
