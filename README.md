@@ -11,7 +11,7 @@ Watcher is an automated movie NZB & Torrent searcher and snatcher. You can add a
 
 ### Volumes
 * /config : Configurations files are here
-* /app/watcher/userdata : Configurations files are here
+* /app/watcher/userdata : Userdata are here
 * /downloads : Downloads files are here
 * /movies : Movies are here
 
