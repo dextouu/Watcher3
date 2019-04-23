@@ -29,7 +29,7 @@ URI access : http://XX.XX.XX.XX:9090
 ```shell
 docker run -d -p 9090 \
 	-v /app/watcher/userdata:/app/watcher/userdata \
-  -v /app/watcher/config:/config
+  -v /app/watcher/config:/config \
   -v /downloads:/downloads \
   -v /movies:/movies \
 	-e UID=1001 \
