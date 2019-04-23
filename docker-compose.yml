@@ -1,0 +1,16 @@
+version: '3'
+services:
+  watcher:
+    container_name: watcher
+    image: dextou/watcher3
+    restart: unless-stopped
+    ports:
+      - "9090:9090"
+    volumes:
+      - /app/watcher/config:/config
+      - /app/watcher/userdata:/app/watcher/userdata
+      - /data/downloads:/data/downloads
+      - /data/media/movies:/data/media/movies
+    environment:
+      - PGID=1002
+      - PUID=1001
