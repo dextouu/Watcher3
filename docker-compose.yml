@@ -7,7 +7,7 @@ services:
     ports:
       - "9090:9090"
     volumes:
-      - /app/watcher/config:/config
+      - /config:/config
       - /app/watcher/userdata:/app/watcher/userdata
       - /data/downloads:/data/downloads
       - /data/media/movies:/data/media/movies
